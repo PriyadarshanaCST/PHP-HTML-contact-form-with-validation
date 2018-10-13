@@ -38,18 +38,18 @@
     </fieldset>
 
 <fieldset>
-<input type="text" placeholder="Your Website start with http:// " tabindex="4" name="url"  value="<?= $url ?>" >
+<input type="text" placeholder="Your Website Start With http:// " tabindex="4" name="url"  value="<?= $url ?>" >
 <span class="error"><?= $url_error ?></span>
 </fieldset>
 
 
 <fieldset>
-<textarea placeholder="Type your Message here..." tabindex="5"  type="text" name="message"  value="<?= $message ?>" ></textarea>
+<textarea placeholder="Type your Message Here..." tabindex="5"  type="text" name="message"  value="<?= $message ?>" ></textarea>
 </fieldset>
 
 
 <fieldset> 
-<button name="submit" type="submit" id="contact-submit" data-submit="....sending">Submit</button>
+<button name="submit" type="submit" id="contact-submit" data-submit=".....sending">Submit</button>
 </fieldset>
 
 <div class="success"><?= $success; ?></div>
