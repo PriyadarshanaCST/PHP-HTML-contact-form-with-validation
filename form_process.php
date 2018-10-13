@@ -7,21 +7,21 @@
     //form is submited with POST method
     if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($_POST["name"])){
-        $name_error = "name is required";
+        $name_error = "Name is Required";
     }else{
             $name = test_input($_POST["name"]);
             
         }
     //email Required       
     if(empty($_POST["email"])){
-    $email_error = "email is required";
+    $email_error = "Email is Required";
     }else{
         $email = test_input($_POST["email"]);
         
     }
     //phone number required
     if(empty($_POST["phone"])){
-    $phone_error = "phone number is required";
+    $phone_error = "Phone Number is Required";
     }else{
         $phone = test_input($_POST["phone"]);
         
@@ -29,7 +29,7 @@
 
     //URL  required
     if(empty($_POST["url"])){
-    $url_error = "url  is required";
+    $url_error = "URL  is required";
     }else{
     $url = test_input($_POST["url"]);
 
